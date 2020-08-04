@@ -1,0 +1,8 @@
+@import url(./__background/cover__background.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./subtitle/cover__subtitle.css);
+@import url(./title/cover__title.css);
+
+.cover{
+    
+}

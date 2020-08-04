@@ -1,0 +1,9 @@
+@import url(./__lang-link/header__lang.css);
+@import url(./__logo/header__logo.css);
+
+.header{
+    display: grid;
+    grid-template-columns: 80% 5% 5%; 
+    margin: 0 auto 0;
+    width: 90%;
+}
