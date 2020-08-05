@@ -12,3 +12,15 @@
         margin: 0; 
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cover__background{
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background{
+        max-height: 200px;
+    }
+}

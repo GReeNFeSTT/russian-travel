@@ -10,3 +10,20 @@
     margin-bottom: 0;
     color: #FFFFFF;
     }
+
+    @media screen and (max-width: 768px) {
+        .cover__title{
+            margin: 115px auto 0;
+        }
+    
+        @media screen and (max-width: 320px) {
+            .cover__title{
+                margin: 33px auto 0;
+
+                font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+text-align: center;
+            }

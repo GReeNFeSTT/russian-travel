@@ -1,5 +1,6 @@
 @import url(./fonts/Inter-3.13/Inter\ Web/inter.css);
 
+@import url(../vendor/normalize.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
@@ -11,6 +12,6 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
 
-
+*{padding: 0; margin: 0;}
 *{outline: 1px solid red;}
 

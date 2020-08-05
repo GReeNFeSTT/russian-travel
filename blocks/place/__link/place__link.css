@@ -8,3 +8,9 @@ text-decoration-line: underline;
     color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 320px) {
+    .place__link{
+        display: none;
+    }
+}

@@ -14,3 +14,18 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+    .lead__caption{
+        margin: 16px 0 64px 8px ;
+        width: max-content;
+
+        font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+    }
+}

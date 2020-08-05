@@ -19,3 +19,13 @@ font-weight: 900;
 font-size: 42px;
 line-height: 46px;
     }
+
+    @media screen and (max-width: 320px) {
+        .place__title{
+            font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+margin: 64px auto 32px;
+        }
