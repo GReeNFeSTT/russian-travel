@@ -9,3 +9,9 @@ font-size: 12px;
 line-height: 18px;
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__list{
+        margin: 0 24px 92px 24px;
+        max-width: 100%;
+    }

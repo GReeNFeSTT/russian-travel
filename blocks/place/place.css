@@ -17,3 +17,17 @@
     row-gap: 48px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place{
+max-width:  100%;
+margin: 0 48px 0 48px;
+    }
+}
+
+@media screen and (max-width 768px) {
+    .place{
+    max-width:  100%;
+    margin: 0 24px 0 24px;
+        }
+    }
