@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1024px) {
     .cover__background{
-        margin: 0; 
+        margin: 0;
+        max-height: 640px;
     }
 }
 

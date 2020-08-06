@@ -20,7 +20,8 @@
 @media (max-width: 320px) {
     .header{
         display: grid;
-        grid-template-columns: 70% 15% 15%; 
-        width: 90%;
+        grid-template-columns: 65% 20% 10%; 
+        width: 95%;
+        margin-bottom: 48px;
     }
 }
