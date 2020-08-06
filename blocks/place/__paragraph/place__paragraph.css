@@ -1,3 +1,5 @@
+@import url(./__paragraph_down/place__paragraph_down.css);
+
 .place__paragraph{
     align-self: start;
     font-family: Inter;
@@ -5,7 +7,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
-margin: 0;
 color: #FFFFFF;
 
 }
@@ -19,8 +20,10 @@ font-weight: normal;
 font-size: 16px;
 line-height: 163%;
     }
+}
 
     @media screen and (max-width: 320px) {
         .place__paragraph{
         margin: 32px 16px 0px;
         }
+    }

@@ -1,6 +1,7 @@
 .header__lang-link{
     align-self: end;
     justify-self: end;
+    margin: 0 15px 0;
     
     
     font-family: Inter;

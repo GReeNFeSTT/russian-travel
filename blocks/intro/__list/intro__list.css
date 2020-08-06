@@ -1,18 +1,21 @@
-.intro__list{
-    margin: 0 148px 92px;
-    max-width: 60%;
+@import url(./__list_item/intro__list_item.css);
 
+.intro__list{
     font-family: Inter;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 18px;
 color: #FFFFFF;
+list-style-type: none;
+
+    
+
 }
 
 @media screen and (max-width: 768px) {
     .intro__list{
-        margin: 0 24px 92px 24px;
+        margin: 0 24px 80px 24px;
         max-width: 100%;
     }
 

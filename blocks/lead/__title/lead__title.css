@@ -1,6 +1,6 @@
 .lead__title{
     position: static;
-        width: 100%;
+        max-width: 60%;
         font-weight: bold;
         margin: 56px auto 32px;
     
@@ -12,11 +12,21 @@
         text-align: center;
         color: #FFFFFF;
     }
+    @media (max-width: 1024px) {
+        .lead__title{
+            max-width: 80%;
+        }
+    }
+    @media (max-width: 768px) {
+        .lead__title{
+            max-width: 100%;
+            font-size: 14vw;
+        }
+    }
 
     @media screen and (max-width: 320px) {
         .lead__title{
             margin: 0 16px 40px 16px;
-            max-width: 100%;
     
             font-family: Inter;
     font-style: normal;

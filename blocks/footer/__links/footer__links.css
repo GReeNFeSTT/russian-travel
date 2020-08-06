@@ -6,6 +6,13 @@
     list-style-type: none;
 }
 
+@media (max-width: 720px) {
+    .footer__links{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
 @media (max-width: 320px) {
     .footer__links{
         display: flex;
