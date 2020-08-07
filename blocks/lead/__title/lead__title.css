@@ -1,7 +1,7 @@
 .lead__title{
     position: static;
         max-width: 60%;
-        font-weight: bold;
+        font-weight: 900;
         margin: 56px auto 32px;
         text-align: center;
         font-family: "Inter",Arial, Helvetica, sans-serif;
