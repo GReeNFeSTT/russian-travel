@@ -20,16 +20,16 @@
 @media (max-width: 1024px) {
     .place{
         grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-max-width:  100%;
-margin: 0 48px 80px 48px;
+        max-width:  100%;
+        margin: 0 48px 80px 48px;
     }
 }
 
 @media (max-width: 768px) {
     .place{
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-max-width:  100%;
-margin: 0 24px 72px 24px;
+        max-width:  100%;
+        margin: 0 24px 72px 24px;
     }
 }
 @media (max-width: 320px) {
@@ -39,7 +39,7 @@ margin: 0 24px 72px 24px;
         max-width: 100%;
         margin: 0 auto 0;
         column-gap: 0px;
-        row-gap: 48px;
+        row-gap: 32px;
         margin-bottom: 0;
     }
 }

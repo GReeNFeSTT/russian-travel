@@ -2,24 +2,19 @@
     position: relative;
     margin-right: 18px;
     padding: 0;
-    
-
     text-decoration: none;
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-color: #FFFFFF;
+    font-family: "Inter",Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 320px) {
     .footer__link{
         padding-bottom: 32px;
-        font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 24px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

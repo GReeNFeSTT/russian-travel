@@ -1,16 +1,16 @@
-@import url(./__list_item/intro__list_item.css);
+@import url(./_item/intro__list_item.css);
 
 .intro__list{
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-color: #FFFFFF;
-list-style-type: none;
-margin: 0 148px 40px;
+    font-family: "Inter",Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin: 0 148px 40px;
     max-width: 55%;
-
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,12 +18,13 @@ margin: 0 148px 40px;
         margin: 0 48px 40px;
         max-width: 100%;
     }
-
+}
 @media screen and (max-width: 768px) {
     .intro__list{
         margin: 0 24px 80px 24px;
         max-width: 100%;
     }
+}    
 
     @media screen and (max-width: 320px) {
         .intro__list{

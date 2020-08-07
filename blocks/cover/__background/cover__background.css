@@ -5,6 +5,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size:cover;
     margin: 0 48px 0 48px;
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 1024px) {

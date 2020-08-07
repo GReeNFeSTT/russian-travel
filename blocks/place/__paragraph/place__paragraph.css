@@ -1,29 +1,26 @@
 @import url(./__paragraph_down/place__paragraph_down.css);
 
 .place__paragraph{
+    margin: 0;
     align-self: start;
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-color: #FFFFFF;
+    font-family: "Inter",Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
 
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph{
-        
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 163%;
+        font-size: 16px;
+        line-height: 163%;
     }
 }
 
-    @media screen and (max-width: 320px) {
-        .place__paragraph{
-        margin: 32px 16px 0px;
-        }
+@media screen and (max-width: 320px) {
+    .place__paragraph{
+        margin: 0px 16px 0px;
     }
+}
