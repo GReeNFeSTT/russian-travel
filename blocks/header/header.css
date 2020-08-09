@@ -3,24 +3,17 @@
 
 .header{
     display: grid;
-    grid-template-columns: 80% 5% 5%; 
+    grid-template-columns: 87% 5% 5%; 
     margin: 0 auto 0;
     width: 90%;
     gap: 15px;
     padding-top: 28px;
+    max-width: 1184px;
 }
 
-@media (max-width: 720px) {
-    .header{
-        display: grid;
-        grid-template-columns: 70% 10% 10%; 
-        width: 90%;
-    }
-}
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .header{
-        display: grid;
         grid-template-columns: 65% 20% 10%; 
         width: 95%;
         margin-bottom: 48px;

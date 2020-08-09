@@ -1,7 +1,6 @@
 .lead__caption{
     margin: 0 auto 92px;
     max-height: 14px;
-    width: 100%;
     max-width: 984px;
     font-family: "Inter",Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -15,13 +14,11 @@
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        width: auto;
         margin: 0 48px 92px;
     }
 }    
 @media screen and (max-width: 768px) {
     .lead__caption{
-        width: auto;
         margin: 0 24px 92px;
     }        
 }
@@ -29,7 +26,6 @@
     .lead__caption{
         margin: 8px 0 64px 16px ;
         width: max-content;
-        font-family: Inter;
         font-size: 10px;
         line-height: 14px;
     }

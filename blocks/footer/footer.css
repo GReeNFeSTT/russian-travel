@@ -4,17 +4,28 @@
 
 
 .footer{
-    max-width: 100%;
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    margin: 92px 48px 0;
+    margin: 90px 48px 0;
     padding-bottom: 24px;
+}
+
+@media (min-width: 1441px) {
+    .footer{
+        margin: 92px auto 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer{
+        margin: 90px 48px 0;
+    }
 }
 
 @media (max-width: 720px) {
     .footer{
-        display: grid;
-        margin: 90px 24px 0;
+    margin: 90px 24px 0;
     }
 }
 

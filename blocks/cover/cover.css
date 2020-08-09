@@ -4,11 +4,12 @@
 @import url(./__title/cover__title.css);
 
 .cover{
-   margin-top: 12px; 
+   margin:12px auto 0; 
+   max-width: 1184px;
 }
 
 @media screen and (max-width: 320px) {
    .cover{
-       margin-top: 64px;
+      margin-top: 64px;
    }
 }
