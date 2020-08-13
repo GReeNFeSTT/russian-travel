@@ -11,17 +11,24 @@
     z-index: 1;
     }
 
+    @media screen and (max-width: 1024px) {
+        .cover__title{
+            margin: 222px auto 0;
+        }
+    }
+
     @media screen and (max-width: 768px) {
         .cover__title{
-            margin: 115px auto 0;
-            font-size: 10vw;
+            margin: 131px auto 0;
+            font-size: 72px;
         }
     }
     
     @media screen and (max-width: 320px) {
         .cover__title{
-            margin: 33px auto 0;
-            font-size: 32px;
-            line-height: 35px;
+            margin: 44px auto 0;
+        font-size: 32px;
+        line-height: 35px;
+        width: 79%;
         }
     }

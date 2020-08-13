@@ -14,7 +14,15 @@
     }
     @media (max-width: 1024px) {
         .lead__title{
-            max-width: 80%;
+            max-width: 78%;
+            margin: 58px auto 32px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lead__title{
+            max-width: 88%;
+            margin: 58px auto 32px;
         }
     }
     
@@ -22,7 +30,7 @@
     @media screen and (max-width: 767px) {
         .lead__title{
             max-width: 100%;
-            margin: 0 16px 40px 16px;
+            margin: 0 16px 17px 16px;
             font-style: normal;
             font-weight: 900;
             font-size: 40px;

@@ -14,17 +14,17 @@
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        margin: 0 48px 92px;
+        margin:-12px 0px 87px;
     }
 }    
 @media screen and (max-width: 768px) {
     .lead__caption{
-        margin: 0 24px 92px;
+        margin:-12px 23px 84px;
     }        
 }
 @media screen and (max-width: 320px) {
     .lead__caption{
-        margin: 8px 0 64px 16px ;
+        margin: -6px 0 60px 16px;
         width: max-content;
         font-size: 10px;
         line-height: 14px;
