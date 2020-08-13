@@ -3,9 +3,9 @@
 
 .header{
     display: grid;
-    grid-template-columns: 87% 5% 5%; 
+    grid-template-columns: 90% 6% 3%; 
     margin: 0 auto 0;
-    width: 90%;
+    width: 93%;
     gap: 15px;
     padding-top: 28px;
     max-width: 1184px;

@@ -1,7 +1,7 @@
-@import url(./__paragraph_down/place__paragraph_down.css);
+@import url(./__paragraph_top/place__paragraph_top.css);
+@import url(./__paragraph_bottom/place__paragraph_bottom.css);
 
 .place__paragraph{
-    margin: 0;
     align-self: start;
     font-family: "Inter",Arial, Helvetica, sans-serif;
     font-style: normal;

@@ -1,0 +1,14 @@
+.place__paragraph_top {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph_top{
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph_top{
+    }
+}
