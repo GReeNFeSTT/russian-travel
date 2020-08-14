@@ -22,20 +22,28 @@
     .place{
         grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
         max-width:  100%;
-        margin: 0 48px 80px 48px;
-        column-gap: 18px;
+        margin: 0 48px 90px 48px;
+        column-gap: 19px;
         row-gap: 38px;
     }
 }
+
+@media (max-width: 1023px) {
+    .place{
+        column-gap: 52px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .place{
         grid-template-columns: repeat(auto-fill, minmax(222px, 1fr));
         max-width:  100%;
-        margin: 0 24px 50px 24px;
+        margin: 0 24px 63px 24px;
         column-gap: 28px;
     }
 }
+
 @media (max-width: 320px) {
     .place{
         display: flex;
@@ -43,7 +51,7 @@
         max-width: 100%;
         margin: 0 auto 0;
         column-gap: 0px;
-        row-gap: 32px;
+        row-gap:10px;
         margin-bottom: 0;
     }
 }
