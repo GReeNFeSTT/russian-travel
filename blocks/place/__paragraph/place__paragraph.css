@@ -37,11 +37,12 @@
 @media screen and (max-width: 320px) {
     .place__paragraph{
         width: 86%;
+        margin: auto;
     }
     .place__paragraph:last-child{
         width: 86%;
         font-size: 16px;
         line-height: 163%;
-        margin-top: 20px;
+        margin: 20px auto 0;
     }
 }
